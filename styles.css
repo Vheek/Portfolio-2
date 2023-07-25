@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: url(background\ again.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo{
+  width: 50px;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+ul{
+  margin-top: -4%
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgb(1, 36, 50) 0%, rgb(1, 49, 97) 100%);
+  width: 100px;
+  height: 30px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+ul li a{
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: -3%;
+  transition: 2s ease;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 25px;
+}
+
+ul li a:hover{
+  color: red;
+}
+
+.info{
+  margin-left: 7%;
+  margin-top: 6%;  
+}
+
+.info h1{
+  font-size:65px;
+  color:white;
+}
+
+.info h3{
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: white;
+  margin-left: 3px;
+}
+
+.info h2{
+  color: white;
+}
+
+.info span{
+  color: rgb(75, 140, 243);
+}
+
+.info a{
+  text-decoration: none;
+  color:#fff;
+  background: red;
+  margin: 26px 0;
+  padding: 5px 6px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: .3s ease;
+  font-weight: normal;
+}
+
+.info a:hover{
+  background: blue;
+}
+
+.image{
+  width: 30%;
+  height: 80%;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+
+.image img{
+  position: absolute;
+  height: 100%;
+  right: 5%;
+  bottom: 0;
+}
+
+.image:hover .boy{
+  right: 2%;
+  transition: right 2s ease;
+}
+
+.icons a{
+  text-decoration: none;
+  color: #000;
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+.icons ion-icon{
+  margin-right: 7%;
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 20px;
+  transition: .4s ease;
+  opacity: 50%;
+}
+.icons ion-icon:hover{
+  color: red;
+}
